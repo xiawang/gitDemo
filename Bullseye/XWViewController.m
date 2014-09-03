@@ -20,8 +20,8 @@ int _targetValue;
 - (void)viewDidLoad
 {
   [super viewDidLoad];
-	_currentValue = _slider.value;
-  _targetValue = 1 + arc4random_uniform(100);
+	[self startNewRound];
+  [self updateLabels];
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,13 +40,20 @@ int _targetValue;
                        _currentValue, _targetValue];
   UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Hello World!" message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
   [alertView show];
+  [self startNewRound];
+  [self updateLabels];
 }
 
 - (void)startNewRound
 {
   _targetValue = 1 + arc4random_uniform(100);
-  _currentValue = 50;
-  self.slider.value = _currentValue;
+  _currentValue = 1;
+  _slider.value = _currentValue;
+}
+
+- (void)updateLabels
+{
+  self.targetLabel.text = [NSString stringWithFormat:@"%d", _targetValue];
 }
 
 @end
