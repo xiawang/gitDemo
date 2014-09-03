@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XWViewController : UIViewController
+@interface XWViewController : UIViewController<UIAlertViewDelegate>
+
 @property (strong, nonatomic) IBOutlet UISlider *slider;
 @property (strong, nonatomic) IBOutlet UILabel *targetLabel;
+@property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (strong, nonatomic) IBOutlet UILabel *roundLabel;
 
 - (IBAction)sliderMoved:(UISlider *)sender;
 - (IBAction)showAlert:(UIButton *)sender;
