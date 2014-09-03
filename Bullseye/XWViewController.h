@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface XWViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UISlider *slider;
+
+- (IBAction)sliderMoved:(UISlider *)sender;
+- (IBAction)showAlert:(UIButton *)sender;
 
 @end
