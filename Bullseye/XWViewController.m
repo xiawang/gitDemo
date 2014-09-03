@@ -22,7 +22,7 @@ int _round;
 - (void)viewDidLoad
 {
   [super viewDidLoad];
-	[self startNewRound];
+	[self startNewGame];
   [self updateLabels];
 }
 
@@ -63,6 +63,18 @@ int _round;
   [alertView show];
   [self startNewRound];
   [self updateLabels];
+}
+
+- (IBAction)startOver:(id)sender {
+  [self startNewGame];
+  [self updateLabels];
+}
+
+- (void)startNewGame
+{
+  _score = 0;
+  _round = 0;
+  [self startNewRound];
 }
 
 - (void)alertView:(UIAlertView *)alertView

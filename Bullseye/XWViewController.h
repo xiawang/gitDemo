@@ -17,5 +17,6 @@
 
 - (IBAction)sliderMoved:(UISlider *)sender;
 - (IBAction)showAlert:(UIButton *)sender;
+- (IBAction)startOver:(id)sender;
 
 @end
