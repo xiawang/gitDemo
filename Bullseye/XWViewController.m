@@ -61,7 +61,7 @@ int _round;
   NSString *message = [NSString stringWithFormat:@"You scored %d points", points];
   UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
   [alertView show];
-  [self startNewRound];
+  // [self startNewRound];
   [self updateLabels];
 }
 
