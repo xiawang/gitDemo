@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface XWAboutViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+
 - (IBAction)close:(id)sender;
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4C2376419BA4E640078E75C /* XWAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2376319BA4E640078E75C /* XWAboutViewController.m */; };
+		A4C2376619BA6E670078E75C /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = A4C2376519BA6E670078E75C /* BullsEye.html */; };
 		A4C2ED8819B6FF0F00D250A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2ED8719B6FF0F00D250A7 /* Foundation.framework */; };
 		A4C2ED8A19B6FF0F00D250A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2ED8919B6FF0F00D250A7 /* CoreGraphics.framework */; };
 		A4C2ED8C19B6FF0F00D250A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2ED8B19B6FF0F00D250A7 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		A4C2376219BA4E640078E75C /* XWAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAboutViewController.h; sourceTree = "<group>"; };
 		A4C2376319BA4E640078E75C /* XWAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAboutViewController.m; sourceTree = "<group>"; };
+		A4C2376519BA6E670078E75C /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		A4C2ED8419B6FF0F00D250A7 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C2ED8719B6FF0F00D250A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4C2ED8919B6FF0F00D250A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +117,7 @@
 		A4C2ED8D19B6FF0F00D250A7 /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
+				A4C2376519BA6E670078E75C /* BullsEye.html */,
 				A4C2ED9619B6FF0F00D250A7 /* XWAppDelegate.h */,
 				A4C2ED9719B6FF0F00D250A7 /* XWAppDelegate.m */,
 				A4C2ED9919B6FF0F00D250A7 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4C2EDA019B6FF0F00D250A7 /* Images.xcassets in Resources */,
+				A4C2376619BA6E670078E75C /* BullsEye.html in Resources */,
 				A4C2ED9219B6FF0F00D250A7 /* InfoPlist.strings in Resources */,
 				A4C2ED9B19B6FF0F00D250A7 /* Main.storyboard in Resources */,
 			);
