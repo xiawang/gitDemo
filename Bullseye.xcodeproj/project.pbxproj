@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4C2376419BA4E640078E75C /* XWAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2376319BA4E640078E75C /* XWAboutViewController.m */; };
 		A4C2ED8819B6FF0F00D250A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2ED8719B6FF0F00D250A7 /* Foundation.framework */; };
 		A4C2ED8A19B6FF0F00D250A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2ED8919B6FF0F00D250A7 /* CoreGraphics.framework */; };
 		A4C2ED8C19B6FF0F00D250A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2ED8B19B6FF0F00D250A7 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4C2376219BA4E640078E75C /* XWAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAboutViewController.h; sourceTree = "<group>"; };
+		A4C2376319BA4E640078E75C /* XWAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAboutViewController.m; sourceTree = "<group>"; };
 		A4C2ED8419B6FF0F00D250A7 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C2ED8719B6FF0F00D250A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4C2ED8919B6FF0F00D250A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 				A4C2ED9619B6FF0F00D250A7 /* XWAppDelegate.h */,
 				A4C2ED9719B6FF0F00D250A7 /* XWAppDelegate.m */,
 				A4C2ED9919B6FF0F00D250A7 /* Main.storyboard */,
+				A4C2376219BA4E640078E75C /* XWAboutViewController.h */,
+				A4C2376319BA4E640078E75C /* XWAboutViewController.m */,
 				A4C2ED9C19B6FF0F00D250A7 /* XWViewController.h */,
 				A4C2ED9D19B6FF0F00D250A7 /* XWViewController.m */,
 				A4C2ED9F19B6FF0F00D250A7 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				A4C2ED9419B6FF0F00D250A7 /* main.m in Sources */,
 				A4C2ED9E19B6FF0F00D250A7 /* XWViewController.m in Sources */,
 				A4C2ED9819B6FF0F00D250A7 /* XWAppDelegate.m in Sources */,
+				A4C2376419BA4E640078E75C /* XWAboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				A4C2EDB819B6FF0F00D250A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4C2EDB919B6FF0F00D250A7 /* Build configuration list for PBXNativeTarget "BullseyeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				A4C2EDBB19B6FF0F00D250A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
